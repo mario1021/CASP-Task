@@ -1,4 +1,5 @@
 # CASP-Task
+#### Autores: Chen Xi Ye Xu, Estefani Alejandra Casallas Samper, Mario Díaz Acosta
 Scripts desarrollados para la automatización de tareas relacionadas con la obtención de estructuras a partir de secuencias de proteínas.
 Ambos se ejecutan por línea de comandos.
 
