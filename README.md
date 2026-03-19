@@ -3,8 +3,8 @@
 Scripts desarrollados para la automatización de tareas relacionadas con la obtención de estructuras a partir de secuencias de proteínas.
 Ambos se ejecutan por línea de comandos.
 
-### Conversión de formato Sympred para I Tasser
-Sympred es una herramienta capaz de predecir la estructura secundaria de una proteína con precisión. Esta información se puede incluir en I Tasser si se prefiere ante la predicción que este realiza, pero los formatos de salida y entrada de las herramientas no coinciden. El script desarrollado transforma la salida de Sympred a un formato aceptable por I Tasser.
+### Conversión de formato Sympred para I-Tasser
+Sympred es una herramienta capaz de predecir la estructura secundaria de una proteína con precisión. Esta información se puede incluir en I-Tasser si se prefiere ante la predicción que este realiza, pero los formatos de salida y entrada de las herramientas no coinciden. El script desarrollado transforma la salida de Sympred a un formato aceptable por I-Tasser.
 
 #### Ejemplo de uso 
 Basta con ejecutar en la terminal:
