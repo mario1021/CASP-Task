@@ -8,7 +8,7 @@ Sympred es una herramienta capaz de predecir la estructura secundaria de una pro
 #### Ejemplo de uso 
 Basta con ejecutar en la terminal:
 ```bash
-python3 nombre_programa input_file.txt output_file.txt
+python3 Sympred_to_Itasser.py input_file.txt output_file.txt
 ```
 ### Script para el uso automatizado de la API de Foldseek
 FoldSeek, herramienta para descubrir estructuras relacionadas, posee una API para realizar programáticamente esta tarea. El script desarrollado nos permite obtener los resultados y descargarlos automáticamente, pudiendo esperar y reintentar si el servidor está caído.

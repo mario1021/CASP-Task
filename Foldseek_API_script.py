@@ -6,7 +6,6 @@ import requests
 import argparse
 import pandas as pd
 import time
-
 # El script se ejecuta desde la línea de comandos
 # Ejemplo de uso: python3 Foldseek_API_script.py input.pdb output.xlsx --multimer
 # El argumento --multimer es opcional y activa el modo multímero en vez del modo monómero.
@@ -24,7 +23,6 @@ def submit_foldseek_job(file_path, multimer=False):
     multimer_db = ["pdb100", "bfmd"]
     monomer_db = ["afdb50", "afdb-swissprot", "afdb-proteome", "pdb100", "BFVD", "mgnify_esm30", "cath50", "gmgcl_id", "bfmd"]
     databases = multimer_db if multimer else monomer_db
-
     for attempt in range(MAX_RETRIES):
         try:
             with open(file_path, "rb") as f:
@@ -202,3 +200,4 @@ if __name__ == "__main__":
     parser.add_argument("--multimer", action="store_true", help="Activar modo complejo (multímero)")
 
     args = parser.parse_args()
+    full_foldseek_pipeline(args.input, args.output, args.multimer)
